@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Barzinho TT - Pedidos</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+    <p>1 - Caipirinha: R$30 <input type="number" id="caipirinha"> <button onclick="pedir()">Pedir</button></p>
+    <p>2 - Cachaça: R$20 <input type="number" id="cachaca"> <button onclick="pedir()">Pedir</button></p>
+    <p>3 - Cerveja: R$10 <input type="number" id="cerveja"> <button onclick="pedir()">Pedir</button></p>
+    <br><br><br><br><br><br>
+    <div class="comanda">
+        <p>Quantidade de caipirinhas consumidas: <spam id="caipirinhaSalvo"></spam>
+        </p>
+        <p>Quantidade de cachaças consumidas: <spam id="cachacaSalvo"></spam>
+        </p>
+        <p>Quantidade de cervejas consumidas: <spam id="cervejaSalvo"></spam>
+        </p>
+    </div>
+    <br>
+    <button onclick="fechar()">Clique para fechar a conta</button>
+    <br>
+    <h4 id="resultado" style="visibility:hidden;">Obrigado pela preferência! Seu total foi de R$<spam id="total"></spam>
+        Volte sempre!</h4>
+
+    <script src="script.js" async defer></script>
+</body>
+
+</html>

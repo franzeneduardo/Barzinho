@@ -1,0 +1,16 @@
+body{
+    display: inline-block;
+    margin: 0px auto;
+    text-align: center;
+    background-image:url(bardomoe.webp);
+    background-repeat: no-repeat;
+    color: beige;
+}
+
+h4{
+    color: blue;
+    background-color: gray;
+}
+.comanda{
+    background-color: grey;
+}
